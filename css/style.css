@@ -4,6 +4,13 @@
 	box-sizing: border-box;
 }
 
+
+/*CUSTOM BACKGROUND COLORS*/
+
+.bg-red {
+	background-color: red;
+}
+
 /*HEADER*/
 
 /*MAIN*/
