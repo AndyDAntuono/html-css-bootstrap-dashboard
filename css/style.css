@@ -5,6 +5,7 @@
 }
 
 
+
 /*CUSTOM BACKGROUND COLORS*/
 
 .bg-red {
@@ -13,14 +14,41 @@
 
 /*HEADER*/
 
+.navbar {
+	height: 50px;
+	width: 100vw;
+}
+
 /*MAIN*/
+
+main {
+	display: flex;
+}
 
 /*side_navbar*/
 
 .side_navbar {
-	float: left;
+	width: 50px;
+	height: calc(100vh - 50px);
 }
 
+/*blue-and-cards*/
+
+.blue-and-cards {
+	width: calc(100vw - 50px);
+	height: calc(100vh - 50px);
+}
+
+
+/*CARDS SECTION*/
+
 .table {
-	font-size: 12px;
+	font-size: 11px;
+}
+
+.icon-border {
+	width: 20px;
+	height: 20px;
+	border: 1px solid black;
+	border-radius: 5px;
 }
